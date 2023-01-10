@@ -1,4 +1,4 @@
-#SW algo that returns all possible alignments retrived from the maximum valu of the scores matrix
+#SW algo that returns all possible alignments retrived from a value of the scores matrix higher than the threshold
 
 def read_substitution_matrix(fn):
 	with open(fn,'r') as reader:
